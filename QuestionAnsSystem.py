@@ -4,7 +4,11 @@ from allennlp.predictors.predictor import Predictor
 predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/bidaf-model-2020.03.19.tar.gz")
 
 passage = """
-Maharashtra, the most affected state overall, has reported 67,160 new cases to take its tally to 4228836. The state has added 650,676 cases in the past 10 days. Kerala, the second-most-affected state by total tally, has added 26,685 cases to take its tally to 1377186.
+Maharashtra, the most affected state overall, 
+has reported 67,160 new cases to take its tally to 4228836. 
+The state has added 650,676 cases in the past 10 days. 
+Kerala, the second-most-affected state by total tally, 
+has added 26,685 cases to take its tally to 1377186.
 """
 
 # "what is GDP growth rate of india?"
