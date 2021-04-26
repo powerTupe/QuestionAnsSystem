@@ -1,4 +1,4 @@
-// install the allen using the commmand "!pip install allennlp==1.0.0 allennlp-models==1.0.0"//
+# install the allen using the commmand "!pip install allennlp==1.0.0 allennlp-models==1.0.0"
 
 from allennlp.predictors.predictor import Predictor
 predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/bidaf-model-2020.03.19.tar.gz")
